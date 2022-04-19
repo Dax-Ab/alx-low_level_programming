@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*_puts - prints a sting
-*@str: a pointer to an int that will be changed
-*
-*Return: void
-*/
+ * _puts - prints a sting
+ * @str: a pointer to an int that will be changed
+ *
+ * Return: void
+ */
 void _puts(char *str)
 {
 	char *c;
@@ -14,7 +14,7 @@ void _puts(char *str)
 
 	for (m = 0; c[m]; m++)
 	{
-		_putchar (c[m]);
+		_putchar(c[m]);
 	}
 	_putchar('\n');
 }
