@@ -2,7 +2,7 @@
 
 /**
  * is_numerical - check if it is a digit
- * @: number
+ * @n: number
  * Return: if is a number, return  else 0
  */
 int is_numerical(unsigned int n)
@@ -20,7 +20,7 @@ int _atoi(char *s)
 {
 	unsigned int number, i;
 	int sign;
-	
+
 	sign = 1;
 	number = 0;
 
