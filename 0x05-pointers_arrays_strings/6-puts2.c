@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _puts2 - prints evry character of a sting
+ * puts2 - prints evry character of a sting
  * @str: a pointer to an int that will be changed
  *
  * Return: void
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int a;
 
